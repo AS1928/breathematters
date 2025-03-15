@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/vite-deploy/"
+  base: "/breathematters/"
   plugins: [
     react(),
     mode === 'development' &&
